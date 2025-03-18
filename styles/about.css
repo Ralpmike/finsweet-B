@@ -33,9 +33,9 @@
     color: #ff4500;
 }
 .heading {
-    font-size: 4rem;
-    font-weight: 600;
-    line-height: 72px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 62px;
 }
 .headding-image {
     width: 100%;
@@ -44,4 +44,11 @@
 }
 .first-section {
     margin-top: 108px;
+}
+.new-class {
+    border-radius: 50px !important;
+    background-color: #F58A07 !important;
+    border: none !important;
+    color: #FFFFFF;
+    
 }
