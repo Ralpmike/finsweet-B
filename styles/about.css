@@ -21,11 +21,13 @@
   color: #f58a07 !important;
 }
 .clone-btn {
-  background-color: #f7e4cb !important;
+  /* background-color: #f7e4cb !important; */
   color: #f58a07 !important;
   border-radius: 20px !important;
   padding: 8px 20px;
   border: none;
+  background-image: linear-gradient(#F58A071A, #F58A071A) !important;
+  font-size: 13px !important;
   transition: background 0.3s ease-in-out;
 }
 .clone-btn:hover {

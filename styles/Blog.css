@@ -21,7 +21,9 @@
   color: #f58a07 !important;
 }
 .clone-btn {
-  background-color: #f7e4cb !important;
+  background-image: linear-gradient(#F58A071A, #F58A071A) !important;
+  /* background-color: #f7e4cb !important; */
+  font-size: 13px !important;
   color: #f58a07 !important;
   border-radius: 20px !important;
   padding: 8px 20px;
