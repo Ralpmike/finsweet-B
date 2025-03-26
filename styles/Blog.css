@@ -2,42 +2,171 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Poppins", sans-serif;
+      list-style-type: none;
+  text-decoration: none;
 }
- .navbar-brand {
-    font-weight: bold;
-    color: #063255 !important;
-    font-size: 1.5rem;
+.navbar-brand {
+  font-weight: bold;
+  color: #063255 !important;
+  font-size: 1.5rem;
 }
-
 .nav-link {
-    color: #333 !important;
-    font-weight: 400; /* Set to normal weight */
-    transition: color 0.3s;
+  color: #394149 !important;
+  font-weight: 600 !important; /* Set to normal weight */
+  transition: color 0.3s;
+  font-size: .9375rem;
 }
 .nav-link:hover {
-    color: #000 !important;
+  color: #f58a07 !important;
 }
 .clone-btn {
-    background-color: #ffebcc !important;
-    color: #ff6600 !important;
-    border-radius: 20px !important;
-    padding: 8px 20px;
-    font-weight: 600;
-    border: none;
-    transition: background 0.3s ease-in-out;
-    
+  background-color: #f7e4cb !important;
+  color: #f58a07 !important;
+  border-radius: 20px !important;
+  padding: 8px 20px;
+  border: none;
+  transition: background 0.3s ease-in-out;
+}
+.first-section {
+  background-color: #dceaf5;
+}
+.user-profile {
+  display: flex;
+  gap: .625rem;
+  align-items: center;
+}
+.user-profile  img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.user-profile > span, .user-profile span {
+  font-size: .8125rem;
+  color: #394149;
 }
 .clone-btn:hover {
-    background-color: #ffcc99;
-    color: #ff4500;
+  background-color: #ffcc99;
+  color: #ff4500;
 }
-.user-blog > img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+.heading-paragraph {
+  font-size: .9375rem !important;
+  color: #5b5b5b;
 }
-.user-blog, .user-blog-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.Blog-header {
+  font-size: 1.125rem;
+  color: #0d1317;
+}
+.Blog-paragraph {
+  font-size: 0.8125rem !important;
+  color: #5b5b5b;
+}
+.blog-card {
+  border-radius: 20px !important;
+  background-color: #dceaf5 !important;
+}
+.blog-card > a > img {
+  width: 5.625rem;
+}
+.blog-heading {
+  font-size: 2.125rem;
+  color: #0d1317;
+}
+.second-section {
+  background-color: #ffffff;
+}
+.footer {
+  background-color: #063255 !important;
+  padding-bottom: 50px;
+  background: url(../Assets/Aboutimages/Shape\ Right.png),
+    url(../Assets/Aboutimages/Shape\ Left.png);
+  background-repeat: no-repeat;
+  background-position: top 38px right, bottom left;
+  background-size: 2.375rem 12.5rem, 2.375rem 6.5625rem;
+}
+/* .card-blog {
+  margin-bottom: 5.625rem;
+} */
+.blogimage {
+  border-top-left-radius: 18px !important;
+  border-top-right-radius: 18px !important;
+  height: 12.5rem !important;
+}
+.footer-heading {
+  font-size: 1.625rem;
+}
+.footer-socials > a {
+  gap: 20px;
+}
+.footer-socials {
+  display: flex;
+  gap: 20px;
+}
+.listing > a, .copy-right > a, .term-policy a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #ffffff;
+}
+.listing a:hover, .term-policy a:hover, .copy-right > a:hover {
+  color: #f58a07;
+}
+.lisst, .term-policy {
+  margin-top: 0.625rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.newsletter {
+  font-size: 1rem;
+}
+.input-space {
+  font-family: "Inter", sans-serif !important;
+  font-size: 0.875rem !important;
+  color: #9c9c9c !important;
+  width: 18.125rem;
+  height: 2.625rem;
+  border-radius: 3.125rem;
+  border: none;
+  padding-left: 1.25rem;
+}
+.last-btn {
+  margin-top: 0.9375rem;
+  width: 8.375rem;
+  height: 2.625rem;
+  background-color: #f58a07;
+  border: none;
+  border-radius: 3.125rem;
+  font-size: 0.9375rem;
+}
+.last-btn:hover {
+  background-color: #ffffff;
+  color: #f58a07;
+  transform: translateY(-5px);
+}
+.last-section,
+.term-policy {
+  display: flex;
+}
+.last-section {
+  justify-content: space-between;
+}
+.term-policy {
+  gap: 1.25rem;
+}
+main {
+  width: 100%;
+  max-width: 120rem;
+}
+.nav-space {
+  width: 100% !important;
+  max-width: 64.875rem !important;
+}
+.clone-btn, .start-up, .blog-heading, .footer-heading, #bold-list-item, .newsletter,  .last-btn {
+  font-weight: 600;
+}
+.start-up, .heading-paragraph,  .Blog-header, .Blog-paragraph, .listing, .term-policy {
+  font-weight: 500 !important;
+}
+.footer-heading, .copy-right, .footer-socials > a, .listing, .term-policy, .newsletter,
+.last-btn {
+  color: #ffffff;
 }
