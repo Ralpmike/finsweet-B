@@ -30,6 +30,53 @@
   border: none;
   transition: background 0.3s ease-in-out;
 }
+.first-section {
+  background-color: #dceaf5;
+}
+.user-profile {
+  display: flex;
+  gap: .625rem;
+  align-items: center;
+}
+.user-profile  img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.user-profile > span, .user-profile span {
+  font-size: .8125rem;
+  color: #394149;
+}
+.clone-btn:hover {
+  background-color: #ffcc99;
+  color: #ff4500;
+}
+.heading-paragraph {
+  font-size: .9375rem !important;
+  color: #5b5b5b;
+}
+.Blog-header {
+  font-size: 1.125rem;
+  color: #0d1317;
+}
+.Blog-paragraph {
+  font-size: 0.8125rem !important;
+  color: #5b5b5b;
+}
+.blog-card {
+  border-radius: 20px !important;
+  background-color: #dceaf5 !important;
+}
+.blog-card > a > img {
+  width: 5.625rem;
+}
+.blog-heading {
+  font-size: 2.125rem;
+  color: #0d1317;
+}
+.second-section {
+  background-color: #ffffff;
+}
 .footer {
   background-color: #063255 !important;
   padding-bottom: 50px;
@@ -38,6 +85,14 @@
   background-repeat: no-repeat;
   background-position: top 38px right, bottom left;
   background-size: 2.375rem 12.5rem, 2.375rem 6.5625rem;
+}
+/* .card-blog {
+  margin-bottom: 5.625rem;
+} */
+.blogimage {
+  border-top-left-radius: 18px !important;
+  border-top-right-radius: 18px !important;
+  height: 12.5rem !important;
 }
 .footer-heading {
   font-size: 1.625rem;
@@ -56,39 +111,6 @@
 }
 .listing a:hover, .term-policy a:hover, .copy-right > a:hover {
   color: #f58a07;
-}
-.new-class {
-  border-radius: 50px !important;
-  background-color: #f58a07 !important;
-  color: #ffffff !important;
-}
-.new-class:hover {
-  opacity: 0.5;
-  transform: translateY(-5px);
-}
-.input-area {
-    background-image: linear-gradient(#D2DAED2B, #D2DAED2B) !important;
-    border-radius: 1.875rem !important;
-}
-.text-area {
-border-radius: .9375rem !important;
- background-image: linear-gradient(#D2DAED2B, #D2DAED2B) !important;
-}
-.About {
-  color: #1D3444;
-  font-size: 2.125rem !important;
-}
-.first-li-item {
-    font-size: 1.2188rem ;
-    font-weight: 500;
-}
-.map {
-  height: 100% !important;
-  max-height: 270px;
-}
-.About-paragraph {
-  font-size: 0.9063rem !important;
-  color: #5b5b5b;
 }
 .lisst, .term-policy {
   margin-top: 0.625rem;
