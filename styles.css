@@ -72,6 +72,14 @@ span{
 .banner p span {
     display: block;
 }
+
+.btn.btn-custom1{
+  background-color: rgba(245, 138, 7, 1);
+  border: none;
+  width: 199px;
+  height: 54px;
+  align-content: center;
+}
 .btn-custom {
     border-radius: 0;
     text-decoration: none;
@@ -104,12 +112,13 @@ span{
     position: relative;
 }
 .custom-padding, .custom-padding2 {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .business-section {
     background-color: #f0f8ff;
+    margin-bottom: 0px !important;
   }
   
   .business-section h3 {
@@ -151,6 +160,7 @@ span{
   }
 .experience-section {
     background-color: #fff;
+    margin-top: 0px !important;
   }
   
   .experience-section h2 {
